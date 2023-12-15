@@ -1,0 +1,2325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Out-Source-Accelerator</title>
+
+    <!-- css  -->
+    <link rel="stylesheet" href="./css/first_style.css" />
+    <link rel="stylesheet" href="./css/second_style.css" />
+    <link rel="stylesheet" href="./css/swiper.min.css" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body
+    class="page-template page-template-page-templates page-template-page-business page-template-page-templatespage-business-php page page-id-25529 page-child parent-pageid-22661 no-sidebar"
+  >
+    <div id="app" class="site">
+      <!-- header section start  -->
+      <header id="masthead" class="relative site-header">
+        <div class="h-0 site-branding header-2">
+          <nav
+            id="site-navigation"
+            class="relative z-50 w-full py-4 transition-all duration-300 bg-transparent sm:fixed main-navigation oa-js-header"
+          >
+            <div
+              class="container flex items-center justify-center px-4 mx-auto md:justify-between md:px-16"
+            >
+              <div class="w-16 md:w-20">
+                <a
+                  href="https://www.outsourceaccelerator.com/"
+                  class="custom-logo-link"
+                  rel="home"
+                  data-wpel-link="internal"
+                >
+                  <svg
+                    width="50"
+                    height="50"
+                    viewBox="0 0 156 156"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M58.0108 128.567C49.0927 130.269 39.8757 129.434 31.4081 126.158C22.9405 122.882 15.5622 117.296 10.1123 110.034C4.66236 102.773 1.35958 94.1278 0.579462 85.0817C-0.200658 76.0363 1.57328 66.9535 5.69952 58.8658C9.82577 50.7784 16.1387 44.0111 23.9203 39.3336C31.702 34.6561 40.64 32.2562 49.718 32.4067C58.7964 32.5572 67.6495 35.252 75.2721 40.1848C82.8948 45.1176 88.9795 52.0903 92.8358 60.3101L81.7406 82.057V81.0864C81.7392 73.6992 79.2364 66.5302 74.6392 60.747C70.042 54.9642 63.6218 50.9087 56.4248 49.2415C49.2279 47.5743 41.6785 48.3936 35.0068 51.5659C28.3351 54.7382 22.9345 60.0765 19.6849 66.7109C16.4354 73.345 15.5286 80.8848 17.1122 88.1006C18.6958 95.3158 22.6766 101.783 28.4057 106.447C34.1349 111.11 41.2747 113.697 48.6617 113.784C56.0487 113.87 63.2474 111.453 69.0844 106.925L58.0108 128.567Z"
+                      fill="#001E94"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M138.439 129.6L98.3625 50.6496L107.031 33.7753L155.714 129.6H138.439Z"
+                      fill="#001E94"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <button
+                optin-trigger="booking"
+                class="hidden px-6 py-2 mt-0 text-center transition-colors duration-300 border border-solid rounded-md focus:outline-none md:block h-oa-btn text-oa-blue border-oa-blue hover:bg-oa-blue hover:text-white md:ml-1"
+              >
+                Book a call
+              </button>
+            </div>
+          </nav>
+          <div class="header__oi" id="js-oi-banner">
+            <div class="header__oi-container">
+              <div class="header__oi-banner">
+                <div class="header__oi-texts">
+                  <img
+                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                    alt="Icon"
+                    data-lazy-src="https://www.outsourceaccelerator.com/wp-content/themes/oa-lp/assets/img/icons/oi-megaphone.svg"
+                  /><noscript
+                    ><img
+                      src="https://www.outsourceaccelerator.com/wp-content/themes/oa-lp/assets/img/icons/oi-megaphone.svg"
+                      alt="Icon"
+                  /></noscript>
+                  <span
+                    >Outsource Insights is starting soon. Join the free live
+                    session now.</span
+                  >
+                </div>
+                <div class="header__oi-countdown">
+                  <div class="header__oi-countdown--container">
+                    <div class="header__oi-countdown--time"><h3>0</h3></div>
+                    <div class="header__oi-countdown--time"><h3>0</h3></div>
+                    <span>:</span>
+                    <div class="header__oi-countdown--time">
+                      <h3 class="js-oi-counter">0</h3>
+                    </div>
+                    <div class="header__oi-countdown--time">
+                      <h3 class="js-oi-counter">0</h3>
+                    </div>
+                    <span>:</span>
+                    <div class="header__oi-countdown--time">
+                      <h3 class="js-oi-counter">0</h3>
+                    </div>
+                    <div class="header__oi-countdown--time">
+                      <h3 class="js-oi-counter">0</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="header__oi-button">
+                <button id="js-oi-cta">
+                  <span>Learn more</span>
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M9.83441 4.23431C10.1468 3.9219 10.6534 3.9219 10.9658 4.23431L14.1658 7.43431C14.4782 7.74673 14.4782 8.25327 14.1658 8.56569L10.9658 11.7657C10.6534 12.0781 10.1468 12.0781 9.83441 11.7657C9.52199 11.4533 9.52199 10.9467 9.83441 10.6343L11.6687 8.8H2.4001C1.95827 8.8 1.6001 8.44183 1.6001 8C1.6001 7.55817 1.95827 7.2 2.4001 7.2H11.6687L9.83441 5.36569C9.52199 5.05327 9.52199 4.54673 9.83441 4.23431Z"
+                      fill="#003CB3"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="header__oi" id="js-oi-banner2">
+            <div class="header__oi-container">
+              <div class="header__oi-banner">
+                <div class="header__oi-texts">
+                  <img
+                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                    alt="Icon"
+                    data-lazy-src="https://www.outsourceaccelerator.com/wp-content/themes/oa-lp/assets/img/icons/oi-megaphone.svg"
+                  /><noscript
+                    ><img
+                      src="https://www.outsourceaccelerator.com/wp-content/themes/oa-lp/assets/img/icons/oi-megaphone.svg"
+                      alt="Icon"
+                  /></noscript>
+                  <span
+                    >OA's Zoom room is open! Come chat with our outsourcing
+                    expert now.</span
+                  >
+                </div>
+              </div>
+              <div class="header__oi-button">
+                <button id="js-oi-cta2">
+                  <span>Join now</span>
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M9.83441 4.23431C10.1468 3.9219 10.6534 3.9219 10.9658 4.23431L14.1658 7.43431C14.4782 7.74673 14.4782 8.25327 14.1658 8.56569L10.9658 11.7657C10.6534 12.0781 10.1468 12.0781 9.83441 11.7657C9.52199 11.4533 9.52199 10.9467 9.83441 10.6343L11.6687 8.8H2.4001C1.95827 8.8 1.6001 8.44183 1.6001 8C1.6001 7.55817 1.95827 7.2 2.4001 7.2H11.6687L9.83441 5.36569C9.52199 5.05327 9.52199 4.54673 9.83441 4.23431Z"
+                      fill="#003CB3"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- header section end -->
+
+      <!-- main section start  -->
+      <main id="home">
+        <!-- first section start  -->
+        <section
+          id="oa-section-banner"
+          class="flex items-end pt-32 section-hero section-banner bg-oa-solitude"
+        >
+          <div
+            class="container relative px-4 mx-auto md:flex md:flex-wrap md:px-16"
+          >
+            <div
+              class="relative z-10 flex items-center w-full oa-js-reveal lg:w-1/2"
+            >
+              <div class="relative px-3 content-holder md:px-0">
+                <h1
+                  class="relative z-10 max-w-2xl mb-5 -mt-4 text-5xl font-semibold text-center md:mt-0 md:text-left xl:text-5xl 2xl:text-6xl"
+                >
+                  The easiest way to outsource lead generation
+                </h1>
+                <h3
+                  class="max-w-lg mb-5 text-base font-normal text-center text-oa-light-black-2 md:text-xl md:font-semibold md:text-left"
+                >
+                  Save 70% on staffing costs whilst driving output, quality &
+                  revenues. Guaranteed.
+                </h3>
+                <p
+                  class="hidden mb-5 text-base text-center md:block md:text-left"
+                >
+                  Outsource Accelerator transforms businesses of all sectors and
+                  all sizes
+                </p>
+                <ul
+                  class="hidden pl-20 md:block mb-7 sm:pl-0 md:ml-10 md:mb-11 oa-list-holder"
+                >
+                  <li class="relative mb-3 text-base">
+                    <p>3 FREE Independent quotes</p>
+                  </li>
+                  <li class="relative mb-3 text-base">
+                    <p>3,000+ leading outsourcing firms</p>
+                  </li>
+                  <li class="relative mb-3 text-base">
+                    <p>Millions of talented professionals</p>
+                  </li>
+                  <li class="relative mb-3 text-base">
+                    <p>Secure, trusted & transparent</p>
+                  </li>
+                  <li class="relative mb-3 text-base">
+                    <p>Bespoke advisory & support</p>
+                  </li>
+                </ul>
+                <div
+                  class="flex justify-center w-full mb-20 text-left md:block md:justify-left"
+                >
+                  <button
+                    optin-trigger="quote"
+                    class="flex items-center justify-center w-4/5 h-16 p-3 ml-0 mr-0 text-base text-center text-white transition-colors duration-300 border-2 rounded-md focus:outline-none md:block md:mr-auto md:max-w-xs bg-oa-blue md:p-5 border-oa-blue hover:bg-transparent hover:text-oa-blue"
+                  >
+                    Get 3 Free Quotes
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="bottom-0 left-0 right-0 flex items-end justify-center w-full -mt-20 transition duration-500 ease-in-out bg-no-repeat md:mt-0 md:justify-end oa-js-reveal md:relative lg:w-1/2"
+            >
+              <div class="relative flex items-start oa-buttons-holder">
+                <div class="opacity-100 oa-section-banner-img">
+                  <img
+                    class="w-full"
+                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                    data-lazy-src="../../wp-content/themes/oa-lp/assets/img/stock/build-offshore-team.png"
+                  /><noscript
+                    ><img
+                      class="w-full"
+                      src="../../wp-content/themes/oa-lp/assets/img/stock/build-offshore-team.png"
+                  /></noscript>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- first section end -->
+
+        <!-- second section start  -->
+        <section
+          id="oa-section-boxes"
+          class="flex items-center py-16 lg:py-24 bg-oa-athens-gray"
+        >
+          <div class="container flex flex-wrap px-4 mx-auto md:px-16">
+            <div class="flex items-center w-full max-w-4xl mx-auto">
+              <h2
+                class="relative z-10 w-full text-3xl font-semibold text-center xl:text-4xl 2xl:text-5xl mb-7 lg:mb-14"
+              >
+                <span class="relative"
+                  ><span
+                    class="absolute top-0 left-0 bg-bottom bg-no-repeat bg-contain -right-3 sm:-right-2 -z-10 sm:left-5 -bottom-2 bg-oa-heading-highlight-lg"
+                  ></span
+                  >6 reasons</span
+                >
+                to consider outsourcing your lead generation strategy
+              </h2>
+            </div>
+            <div
+              class="grid w-full gap-1 md:gap-5 oa-js-reveal xl:grid-cols-3 lg:grid-cols-2 lg:gap-12"
+            >
+              <div
+                class="flex flex-wrap items-center md:bg-white rounded-2xl min-h-14-5"
+              >
+                <div class="flex flex-wrap items-center w-full p-2 md:p-8">
+                  <div
+                    class="relative flex flex-row flex-wrap items-center justify-between w-full pr-4 md:pr-0 oa-section-accordion md:justify-start md:mb-6"
+                  >
+                    <span
+                      class="flex items-center justify-center w-12 h-12 rounded-full bg-oa-solitude"
+                    >
+                      <span class="text-xl font-bold text-oa-blue">01</span>
+                    </span>
+                    <input
+                      class="absolute z-10 w-full p-0 opacity-0 md:hidden"
+                      type="checkbox"
+                      checked
+                    />
+                    <h5
+                      class="flex-auto w-9/12 ml-4 overflow-hidden text-base font-semibold md:text-lg md:ml-0 md:pl-8"
+                    >
+                      Save up to 70% on staffing costs!
+                    </h5>
+                    <svg
+                      class="absolute active-arrow md:hidden left-97%"
+                      width="14"
+                      height="8"
+                      viewBox="0 0 14 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13 1L7 7L1 1"
+                        stroke="#7B90A6"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="flex-wrap items-center mt-3 md:mt-0 oa-section-accordion-contents md:flex"
+                  >
+                    <p
+                      class="ml-16 mr-8 text-sm font-normal md:ml-0 md:mr-0 justify-items-stretch md:text-left md:pl-0 text-oa-light-black"
+                    >
+                      Affordable staffing is the number one reason why companies
+                      outsource their business functions. Through outsourcing,
+                      you can save up to 70% on employment costs through your
+                      BPO partners’ cost-effective solutions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex flex-wrap items-center md:bg-white rounded-2xl min-h-14-5"
+              >
+                <div class="flex flex-wrap items-center w-full p-2 md:p-8">
+                  <div
+                    class="relative flex flex-row flex-wrap items-center justify-between w-full pr-4 md:pr-0 oa-section-accordion md:justify-start md:mb-6"
+                  >
+                    <span
+                      class="flex items-center justify-center w-12 h-12 rounded-full bg-oa-half-dutch-white"
+                    >
+                      <span class="text-xl font-bold text-oa-blaze-orange"
+                        >02</span
+                      >
+                    </span>
+                    <input
+                      class="absolute z-10 w-full p-0 opacity-0 md:hidden"
+                      type="checkbox"
+                    />
+                    <h5
+                      class="flex-auto w-9/12 ml-4 overflow-hidden text-base font-semibold md:text-lg md:ml-0 md:pl-8"
+                    >
+                      Diversify your workforce
+                    </h5>
+                    <svg
+                      class="absolute md:hidden left-97%"
+                      width="14"
+                      height="8"
+                      viewBox="0 0 14 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13 1L7 7L1 1"
+                        stroke="#7B90A6"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="flex-wrap items-center hidden mt-3 md:mt-0 oa-section-accordion-contents md:flex"
+                  >
+                    <p
+                      class="ml-16 mr-8 text-sm font-normal md:ml-0 md:mr-0 justify-items-stretch md:text-left md:pl-0 text-oa-light-black"
+                    >
+                      Outsourcing can help you diversify your workforce by
+                      letting you access world-class remote teams. Leverage your
+                      outsourced team's skills, talents, and expertise – at a
+                      fraction of the price!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex flex-wrap items-center md:bg-white rounded-2xl min-h-14-5"
+              >
+                <div class="flex flex-wrap items-center w-full p-2 md:p-8">
+                  <div
+                    class="relative flex flex-row flex-wrap items-center justify-between w-full pr-4 md:pr-0 oa-section-accordion md:justify-start md:mb-6"
+                  >
+                    <span
+                      class="flex items-center justify-center w-12 h-12 rounded-full bg-oa-solitude"
+                    >
+                      <span class="text-xl font-bold text-oa-blue">03</span>
+                    </span>
+                    <input
+                      class="absolute z-10 w-full p-0 opacity-0 md:hidden"
+                      type="checkbox"
+                    />
+                    <h5
+                      class="flex-auto w-9/12 ml-4 overflow-hidden text-base font-semibold md:text-lg md:ml-0 md:pl-8"
+                    >
+                      Get focused on your core tasks
+                    </h5>
+                    <svg
+                      class="absolute md:hidden left-97%"
+                      width="14"
+                      height="8"
+                      viewBox="0 0 14 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13 1L7 7L1 1"
+                        stroke="#7B90A6"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="flex-wrap items-center hidden mt-3 md:mt-0 oa-section-accordion-contents md:flex"
+                  >
+                    <p
+                      class="ml-16 mr-8 text-sm font-normal md:ml-0 md:mr-0 justify-items-stretch md:text-left md:pl-0 text-oa-light-black"
+                    >
+                      Who doesn't want a lighter workload? Outsourcing firms
+                      partner up with companies so the latter can free up
+                      departments of extra responsibilities, allowing them to
+                      focus on core tasks at hand.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex flex-wrap items-center md:bg-white rounded-2xl min-h-14-5"
+              >
+                <div class="flex flex-wrap items-center w-full p-2 md:p-8">
+                  <div
+                    class="relative flex flex-row flex-wrap items-center justify-between w-full pr-4 md:pr-0 oa-section-accordion md:justify-start md:mb-6"
+                  >
+                    <span
+                      class="flex items-center justify-center w-12 h-12 rounded-full bg-oa-half-dutch-white"
+                    >
+                      <span class="text-xl font-bold text-oa-blaze-orange"
+                        >04</span
+                      >
+                    </span>
+                    <input
+                      class="absolute z-10 w-full p-0 opacity-0 md:hidden"
+                      type="checkbox"
+                    />
+                    <h5
+                      class="flex-auto w-9/12 ml-4 overflow-hidden text-base font-semibold md:text-lg md:ml-0 md:pl-8"
+                    >
+                      Instant teams - auxiliary and core roles
+                    </h5>
+                    <svg
+                      class="absolute md:hidden left-97%"
+                      width="14"
+                      height="8"
+                      viewBox="0 0 14 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13 1L7 7L1 1"
+                        stroke="#7B90A6"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="flex-wrap items-center hidden mt-3 md:mt-0 oa-section-accordion-contents md:flex"
+                  >
+                    <p
+                      class="ml-16 mr-8 text-sm font-normal md:ml-0 md:mr-0 justify-items-stretch md:text-left md:pl-0 text-oa-light-black"
+                    >
+                      Outsourcing allows you to build either your core team of
+                      staff (operations), or auxiliary support teams (customer
+                      support, logistics). Either way, you can get the best
+                      staff, at the best prices!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex flex-wrap items-center md:bg-white rounded-2xl min-h-14-5"
+              >
+                <div class="flex flex-wrap items-center w-full p-2 md:p-8">
+                  <div
+                    class="relative flex flex-row flex-wrap items-center justify-between w-full pr-4 md:pr-0 oa-section-accordion md:justify-start md:mb-6"
+                  >
+                    <span
+                      class="flex items-center justify-center w-12 h-12 rounded-full bg-oa-solitude"
+                    >
+                      <span class="text-xl font-bold text-oa-blue">05</span>
+                    </span>
+                    <input
+                      class="absolute z-10 w-full p-0 opacity-0 md:hidden"
+                      type="checkbox"
+                    />
+                    <h5
+                      class="flex-auto w-9/12 ml-4 overflow-hidden text-base font-semibold md:text-lg md:ml-0 md:pl-8"
+                    >
+                      Affordable external expertise
+                    </h5>
+                    <svg
+                      class="absolute md:hidden left-97%"
+                      width="14"
+                      height="8"
+                      viewBox="0 0 14 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13 1L7 7L1 1"
+                        stroke="#7B90A6"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="flex-wrap items-center hidden mt-3 md:mt-0 oa-section-accordion-contents md:flex"
+                  >
+                    <p
+                      class="ml-16 mr-8 text-sm font-normal md:ml-0 md:mr-0 justify-items-stretch md:text-left md:pl-0 text-oa-light-black"
+                    >
+                      Outsourcing is not just about low-level back office
+                      support roles. Access the expertise to guide your business
+                      through challenging times – from sales, marketing,
+                      technical, and leadership roles.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex flex-wrap items-center md:bg-white rounded-2xl min-h-14-5"
+              >
+                <div class="flex flex-wrap items-center w-full p-2 md:p-8">
+                  <div
+                    class="relative flex flex-row flex-wrap items-center justify-between w-full pr-4 md:pr-0 oa-section-accordion md:justify-start md:mb-6"
+                  >
+                    <span
+                      class="flex items-center justify-center w-12 h-12 rounded-full bg-oa-half-dutch-white"
+                    >
+                      <span class="text-xl font-bold text-oa-blaze-orange"
+                        >06</span
+                      >
+                    </span>
+                    <input
+                      class="absolute z-10 w-full p-0 opacity-0 md:hidden"
+                      type="checkbox"
+                    />
+                    <h5
+                      class="flex-auto w-9/12 ml-4 overflow-hidden text-base font-semibold md:text-lg md:ml-0 md:pl-8"
+                    >
+                      Optimize resources
+                    </h5>
+                    <svg
+                      class="absolute md:hidden left-97%"
+                      width="14"
+                      height="8"
+                      viewBox="0 0 14 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13 1L7 7L1 1"
+                        stroke="#7B90A6"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="flex-wrap items-center hidden mt-3 md:mt-0 oa-section-accordion-contents md:flex"
+                  >
+                    <p
+                      class="ml-16 mr-8 text-sm font-normal md:ml-0 md:mr-0 justify-items-stretch md:text-left md:pl-0 text-oa-light-black"
+                    >
+                      Outsourcing allows you to let go of expenses that comes
+                      with hiring an in-house team. From extra desks to extra
+                      office space, outsourcing firms take care of your overhead
+                      expenses for your team.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- second section end -->
+
+        <!-- third section start  -->
+        <section
+          id="oa-section-video"
+          class="flex items-center py-16 lg:pt-24 lg:pb-12"
+        >
+          <div
+            class="container grid gap-4 px-4 mx-auto md:px-16 lg:grid-cols-12"
+          >
+            <div class="w-full mb-5 oa-js-reveal lg:pr-6 lg:mb-0 lg:col-span-5">
+              <div class="flex flex-col justify-center h-full">
+                <h2
+                  class="order-1 w-full mb-5 font-semibold text-center lg:order-0 md:text-left lg:max-w-sm xl:text-3xl"
+                >
+                  Get 3 free quotes from over 3,000 verified suppliers
+                </h2>
+                <ul class="order-3 ml-12 mr-4 lg:order-0 md:ml-10 md:mr-0">
+                  <li
+                    class="relative flex flex-wrap items-center text-base mb-7 lg:max-w-xs"
+                  >
+                    <span
+                      class="absolute top-0 w-6 h-6 text-sm leading-7 text-center text-white rounded-full -left-10 bg-oa-picton-blue"
+                      >1</span
+                    >
+                    <p class="mb-2 text-base font-semibold">
+                      Tell us about the staff you need
+                    </p>
+                    <p class="text-sm">
+                      Let us know about your business, requirements, and the
+                      team you need and our system will match you with
+                      world-leading outsourcing experts.
+                    </p>
+                  </li>
+                  <li
+                    class="relative flex flex-wrap items-center text-base mb-7 lg:max-w-xs"
+                  >
+                    <span
+                      class="absolute top-0 w-6 h-6 text-sm leading-7 text-center text-white rounded-full -left-10 bg-oa-picton-blue"
+                      >2</span
+                    >
+                    <p class="mb-2 text-base font-semibold">
+                      Get connected to verified experts
+                    </p>
+                    <p class="text-sm">
+                      Browse and connect with verified outsourcing experts -
+                      without obligation, pressure or risk. Explore the market
+                      with ease and convenience.
+                    </p>
+                  </li>
+                  <li
+                    class="relative flex flex-wrap items-center text-base lg:max-w-xs"
+                  >
+                    <span
+                      class="absolute top-0 w-6 h-6 text-sm leading-7 text-center text-white rounded-full -left-10 bg-oa-picton-blue"
+                      >3</span
+                    >
+                    <p class="mb-2 text-base font-semibold">
+                      Get OA guidance & support
+                    </p>
+                    <p class="text-sm">
+                      You can rely on Outsource Accelerator’s team, expertise,
+                      and resources to ensure you get the best out of your
+                      outsourcing.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="block w-full mb-0 oa-js-reveal lg:pl-6 lg:col-span-7">
+              <div
+                class="relative flex items-center justify-center text-center"
+              >
+                <img
+                  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                  data-lazy-src="../../wp-content/themes/oa-lp/assets/img/video-thumbnail.jpg"
+                /><noscript
+                  ><img
+                    src="../../wp-content/themes/oa-lp/assets/img/video-thumbnail.jpg"
+                /></noscript>
+                <button
+                  class="absolute flex items-center justify-center w-24 h-24 transition duration-300 ease-in-out bg-white rounded-full oa-js-modal-button opacity-80 hover:opacity-100 focus:outline-none hover:shadow-oa-all-side"
+                >
+                  <img
+                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                    data-lazy-src="https://www.outsourceaccelerator.com/wp-content/themes/oa-lp/assets/img/icons/polygon-yellow.svg"
+                  /><noscript
+                    ><img
+                      src="https://www.outsourceaccelerator.com/wp-content/themes/oa-lp/assets/img/icons/polygon-yellow.svg"
+                  /></noscript>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="fixed top-0 left-0 z-50 flex items-center justify-center w-full h-full transition duration-500 ease-in-out opacity-0 pointer-events-none oa-js-modal-wrapper"
+          >
+            <div
+              class="absolute top-0 left-0 w-full h-full bg-black opacity-50 cursor-pointer oa-js-modal-overlay"
+            ></div>
+            <div
+              class="container absolute flex items-center justify-center w-full text-2xl bg-transparent rounded-sm px-7 xl:w-4/5 md:px-10"
+            >
+              <div class="relative w-full shadow-lg xl:w-4/5">
+                <span
+                  class="absolute z-50 cursor-pointer w-7 h-7 -right-7 -top-7 oa-js-close-modal"
+                  ><img
+                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                    class="m-auto"
+                    data-lazy-src="https://www.outsourceaccelerator.com/wp-content/themes/oa-lp/assets/img/icons/close.svg" /><noscript
+                    ><img
+                      src="https://www.outsourceaccelerator.com/wp-content/themes/oa-lp/assets/img/icons/close.svg"
+                      class="m-auto" /></noscript
+                ></span>
+                <div
+                  class="relative w-full bg-white"
+                  style="padding-top: 56.2%"
+                >
+                  <div
+                    class="rll-youtube-player"
+                    data-src="https://www.youtube.com/embed/N5XYBUAXg9I"
+                    data-id="N5XYBUAXg9I"
+                    data-query="modestbranding=1&amp;controls=0&amp;showinfo=0&amp;title=0&amp;rel=0&amp;autoplay=0&amp;mute=0&amp;loop=1&amp;vq=hd1080&amp;playlist=N5XYBUAXg9I"
+                  ></div>
+                  <noscript
+                    ><iframe
+                      class="absolute top-0 w-full h-full pin-x pin-t"
+                      id="oa-js-video"
+                      src="https://www.youtube.com/embed/N5XYBUAXg9I?modestbranding=1&amp;controls=0&amp;showinfo=0&amp;title=0&amp;rel=0&amp;autoplay=0&amp;mute=0&amp;loop=1&amp;vq=hd1080&amp;playlist=N5XYBUAXg9I"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe
+                  ></noscript>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- third section end -->
+
+        <!-- fourth section start  -->
+        <section
+          id="oa-section-staff"
+          class="flex items-center py-16 mx-auto lg:pt-12 lg:pb-24"
+        >
+          <div class="container relative flex flex-wrap px-4 mx-auto md:px-16">
+            <div
+              class="flex flex-col items-center w-full max-w-4xl mx-auto mb-4 ease-in-out"
+            >
+              <h2
+                class="w-full text-3xl font-semibold text-center xl:text-4xl 2xl:text-5xl"
+              >
+                Outsourcing any role,
+                <span class="relative"
+                  ><span
+                    class="absolute top-0 left-0 bg-bottom bg-no-repeat bg-contain -right-3 sm:-right-2 -z-10 sm:left-5 -bottom-2 bg-oa-heading-highlight-2xl"
+                  ></span>
+                  any sector</span
+                >
+              </h2>
+            </div>
+            <div class="relative w-full oa-js-reveal">
+              <div class="swiper-container mx-7 sm:mx-0">
+                <div
+                  class="w-full swiper-wrapper mt-36 md:mt-20 lg:mt-12 xl:mt-8 2xl:mt-24"
+                >
+                  <div class="block swiper-slide px-7 md:px-0">
+                    <div class="relative rounded-lg h-52 bg-oa-malibu">
+                      <img
+                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                        class="absolute bottom-0 left-0 right-0 w-full h-auto max-w-sm mx-auto rounded-lg"
+                        data-lazy-src="../../wp-content/themes/oa-lp/assets/img/admin.png"
+                      /><noscript
+                        ><img
+                          src="../../wp-content/themes/oa-lp/assets/img/admin.png"
+                          class="absolute bottom-0 left-0 right-0 w-full h-auto max-w-sm mx-auto rounded-lg"
+                      /></noscript>
+                    </div>
+                    <div class="mt-12 md:mt-4">
+                      <h5 class="mb-5 text-lg font-semibold">
+                        Admin and customer support
+                      </h5>
+                      <p class="mb-5 text-sm">
+                        Outsourcing admin and CS roles is a great way to support
+                        your business - whilst saving 70% on costs.
+                      </p>
+                      <h6
+                        class="mb-5 text-sm font-semibold text-oa-oxford-blue"
+                      >
+                        Some back office services:
+                      </h6>
+                      <ul>
+                        <li
+                          class="mb-4 text-sm font-normal text-oa-oxford-blue"
+                        >
+                          — Data entry & processing
+                        </li>
+                        <li
+                          class="mb-4 text-sm font-normal text-oa-oxford-blue"
+                        >
+                          — Customer support
+                        </li>
+                        <li
+                          class="mb-4 text-sm font-normal text-oa-oxford-blue"
+                        >
+                          — Transcription
+                        </li>
+                        <li
+                          class="mb-4 text-sm font-normal text-oa-oxford-blue"
+                        >
+                          — HR & recruitment
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="block swiper-slide px-7 md:px-0">
+                    <div class="relative rounded-lg h-52 bg-oa-malibu">
+                      <img
+                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                        class="absolute bottom-0 left-0 right-0 w-full h-auto max-w-sm mx-auto rounded-lg"
+                        data-lazy-src="../../wp-content/themes/oa-lp/assets/img/it.png"
+                      /><noscript
+                        ><img
+                          src="../../wp-content/themes/oa-lp/assets/img/it.png"
+                          class="absolute bottom-0 left-0 right-0 w-full h-auto max-w-sm mx-auto rounded-lg"
+                      /></noscript>
+                    </div>
+                    <div class="mt-12 md:mt-4">
+                      <h5 class="mb-5 text-lg font-semibold">
+                        IT and Web Development
+                      </h5>
+                      <p class="mb-5 text-sm">
+                        Outsourcing IT and web development roles can secure top
+                        talent for your business - without the hefty price tag.
+                      </p>
+                      <h6
+                        class="mb-5 text-sm font-semibold text-oa-oxford-blue"
+                      >
+                        Some IT & developer services:
+                      </h6>
+                      <ul>
+                        <li
+                          class="mb-4 text-sm font-normal text-oa-oxford-blue"
+                        >
+                          — Web Developers
+                        </li>
+                        <li
+                          class="mb-4 text-sm font-normal text-oa-oxford-blue"
+                        >
+                          — Ecommerce, CRM & automation
+                        </li>
+                        <li
+                          class="mb-4 text-sm font-normal text-oa-oxford-blue"
+                        >
+                          — IT & network management
+                        </li>
+                        <li
+                          class="mb-4 text-sm font-normal text-oa-oxford-blue"
+                        >
+                          — Technical support
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="block swiper-slide px-7 md:px-0">
+                    <div class="relative rounded-lg h-52 bg-oa-malibu">
+                      <img
+                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                        class="absolute bottom-0 left-0 right-0 w-full h-auto max-w-sm mx-auto rounded-lg"
+                        data-lazy-src="../../wp-content/themes/oa-lp/assets/img/marketing.png"
+                      /><noscript
+                        ><img
+                          src="../../wp-content/themes/oa-lp/assets/img/marketing.png"
+                          class="absolute bottom-0 left-0 right-0 w-full h-auto max-w-sm mx-auto rounded-lg"
+                      /></noscript>
+                    </div>
+                    <div class="mt-12 md:mt-4">
+                      <h5 class="mb-5 text-lg font-semibold">
+                        Marketing and Sales
+                      </h5>
+                      <p class="mb-5 text-sm">
+                        Hiring marketing and sales experts will help take your
+                        business to the next level - minus the scary overhead.
+                      </p>
+                      <h6
+                        class="mb-5 text-sm font-semibold text-oa-oxford-blue"
+                      >
+                        Some marketing & sales services:
+                      </h6>
+                      <ul>
+                        <li
+                          class="mb-4 text-sm font-normal text-oa-oxford-blue"
+                        >
+                          — Digital marketing
+                        </li>
+                        <li
+                          class="mb-4 text-sm font-normal text-oa-oxford-blue"
+                        >
+                          — Media planners
+                        </li>
+                        <li
+                          class="mb-4 text-sm font-normal text-oa-oxford-blue"
+                        >
+                          — Copywriters
+                        </li>
+                        <li
+                          class="mb-4 text-sm font-normal text-oa-oxford-blue"
+                        >
+                          — Sales agents & ISA
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="block swiper-slide px-7 md:px-0">
+                    <div class="relative rounded-lg h-52 bg-oa-malibu">
+                      <img
+                        src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                        class="absolute bottom-0 left-0 right-0 w-full h-auto max-w-sm mx-auto rounded-lg"
+                        data-lazy-src="../../wp-content/themes/oa-lp/assets/img/finance.png"
+                      /><noscript
+                        ><img
+                          src="../../wp-content/themes/oa-lp/assets/img/finance.png"
+                          class="absolute bottom-0 left-0 right-0 w-full h-auto max-w-sm mx-auto rounded-lg"
+                      /></noscript>
+                    </div>
+                    <div class="mt-12 md:mt-4">
+                      <h5 class="mb-5 text-lg font-semibold">
+                        Finance and Accounting
+                      </h5>
+                      <p class="mb-5 text-sm">
+                        Finance and bookeeping roles is a great way to get your
+                        books, tax, and analysis done with ease - and save!
+                      </p>
+                      <h6
+                        class="mb-5 text-sm font-semibold text-oa-oxford-blue"
+                      >
+                        Some finance & accounting services:
+                      </h6>
+                      <ul>
+                        <li
+                          class="mb-4 text-sm font-normal text-oa-oxford-blue"
+                        >
+                          — Bookkeeping & reporting
+                        </li>
+                        <li
+                          class="mb-4 text-sm font-normal text-oa-oxford-blue"
+                        >
+                          — Accountants & CPA
+                        </li>
+                        <li
+                          class="mb-4 text-sm font-normal text-oa-oxford-blue"
+                        >
+                          — Invoice management (AR, AP)
+                        </li>
+                        <li
+                          class="mb-4 text-sm font-normal text-oa-oxford-blue"
+                        >
+                          — CFO & strategy
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="absolute bottom-0 left-0 right-0 z-50 swiper-pagination swiper-buttons md:mt-0 md:hidden"
+                ></div>
+              </div>
+              <div
+                class="absolute left-0 z-50 hidden w-5 mt-4 md:block md:mt-6 md:-left-9 xl:hidden oa-button-prev top-1/2"
+              >
+                <img
+                  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                  data-lazy-src="https://www.outsourceaccelerator.com/wp-content/themes/oa-lp/assets/img/icons/back.svg"
+                /><noscript
+                  ><img
+                    src="https://www.outsourceaccelerator.com/wp-content/themes/oa-lp/assets/img/icons/back.svg"
+                /></noscript>
+              </div>
+              <div
+                class="absolute right-0 z-50 hidden w-5 mt-4 md:block md:mt-6 md:-right-9 xl:hidden oa-button-next top-1/2"
+              >
+                <img
+                  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                  data-lazy-src="https://www.outsourceaccelerator.com/wp-content/themes/oa-lp/assets/img/icons/next.svg"
+                /><noscript
+                  ><img
+                    src="https://www.outsourceaccelerator.com/wp-content/themes/oa-lp/assets/img/icons/next.svg"
+                /></noscript>
+              </div>
+            </div>
+            <div
+              class="flex justify-center w-full text-center md:mt-10 oa-js-reveal"
+            >
+              <button
+                optin-trigger="quote"
+                class="flex items-center justify-center w-4/5 h-16 p-3 ml-0 mr-0 text-base text-center text-white transition-colors duration-300 border-2 rounded-md focus:outline-none md:block md:max-w-xs bg-oa-blue md:p-5 border-oa-blue hover:bg-transparent hover:text-oa-blue"
+              >
+                Get 3 Free Quotes
+              </button>
+            </div>
+          </div>
+        </section>
+        <!-- fourth section end -->
+
+        <!-- fifth section start  -->
+        <section
+          id="oa-section-counter"
+          class="flex items-center py-16 lg:py-24 xl:pb-32 bg-oa-athens-gray"
+        >
+          <div
+            class="container flex flex-wrap justify-between px-4 mx-auto md:px-16"
+          >
+            <div class="w-full mb-6 md:mb-5 xl:w-2/5 xl:mb-0 oa-js-reveal">
+              <div class="block w-full h-full xl:w-8/12">
+                <h2
+                  class="w-full mb-2 text-3xl font-semibold text-center md:mb-5 md:text-left xl:text-4xl 2xl:text-5xl"
+                >
+                  You’re in the right hands
+                </h2>
+                <p class="px-4 text-base text-center md:px-0 md:text-left">
+                  We’re the leading Business Process Outsourcing (BPO)
+                  marketplace for businesses across the globe, and aligned with
+                  our mission to transform businesses with fully-managed expert
+                  solutions, we provide the trusted independent resource for
+                  those seeking to know more about their outsourcing options in
+                  the Philippines.
+                </p>
+              </div>
+            </div>
+            <div class="w-full mb-0 xl:w-3/5 oa-js-reveal">
+              <div
+                class="relative grid w-full grid-cols-2 gap-5 mb-5 lg:gap-8 md:-right-8 lg:mb-8"
+              >
+                <div
+                  class="flex flex-wrap items-center justify-center text-5xl font-medium text-white rounded h-44 sm:h-96 bg-oa-blue md:text-8xl"
+                >
+                  <div class="flex flex-wrap justify-center px-5">
+                    <span
+                      class="w-full px-4 text-5xl font-semibold md:text-center md:px-0 md:font-medium oa-js-count md:text-8xl"
+                      count-value="750"
+                      >750</span
+                    >
+                    <span
+                      class="w-full px-4 text-base md:px-0 md:text-2xl md:text-center"
+                      >world-leading companies</span
+                    >
+                  </div>
+                </div>
+                <div
+                  class="flex flex-wrap items-center justify-center mt-8 text-5xl font-medium text-white rounded md:mt-0 h-44 sm:h-96 bg-oa-black md:text-8xl md:relative md:top-8"
+                >
+                  <div class="flex flex-wrap justify-center px-5">
+                    <span
+                      class="text-5xl font-semibold md:font-medium oa-js-count oa-js-dot md:text-8xl"
+                      count-value="1.5"
+                      >1.5</span
+                    >m
+                    <span
+                      class="w-full px-5 text-base md:px-0 md:text-2xl md:text-center"
+                      >professionals employed</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="grid w-full grid-cols-2 gap-5 mt-5 lg:gap-8 lg:mt-8">
+                <div
+                  class="flex flex-wrap items-center justify-center -mt-8 text-5xl font-semibold text-white rounded md:font-medium md:mt-0 h-44 sm:h-96 bg-oa-blue md:text-8xl"
+                >
+                  <div class="flex flex-wrap justify-center px-5">
+                    <span>
+                      $<span
+                        class="text-5xl font-semibold oa-js-count md:text-8xl"
+                        count-value="25"
+                        >25</span
+                      >bn
+                    </span>
+                    <span
+                      class="w-full text-base font-medium md:text-2xl md:text-center"
+                      >sector revenues</span
+                    >
+                  </div>
+                </div>
+                <div
+                  class="flex flex-wrap items-center justify-center text-5xl font-medium text-white rounded h-44 sm:h-96 bg-oa-malibu md:text-8xl md:relative md:top-8"
+                >
+                  <div class="flex flex-wrap justify-center px-5">
+                    <span
+                      class="text-5xl font-semibold md:font-medium oa-js-count md:text-8xl"
+                      count-value="650"
+                      >650</span
+                    >k
+                    <span
+                      class="w-full px-5 text-base md:px-0 md:text-2xl md:text-center"
+                      >graduates annually</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- fifth section end -->
+
+        <!-- sixth section start  -->
+        <section class="flex items-center py-16 lg:pt-24">
+          <div class="container flex flex-wrap px-8 mx-auto md:px-16">
+            <div
+              class="block w-full h-full mx-auto text-center oa-js-reveal lg:w-6/12 mb-14"
+            >
+              <h2
+                class="w-full mb-5 text-3xl font-semibold xl:text-4xl 2xl:text-5xl"
+              >
+                Get independent outsourcing expertise & assistance
+              </h2>
+              <p class="text-base">
+                Outsource Accelerator is the world’s leading outsourcing
+                marketplace & advisory. OA ensures that you get honest offshore
+                staffing advice - without obligation or spam emails.
+              </p>
+            </div>
+            <div
+              class="grid w-full gap-5 md:grid-cols-2 lg:gap-12 mb-14 lg:mb-12"
+            >
+              <div class="flex items-center mb-5 oa-js-reveal md:mb-0">
+                <img
+                  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                  class="w-full mr-auto xl:w-10/12"
+                  data-lazy-src="../../wp-content/themes/oa-lp/assets/img/girl-picton.jpg"
+                /><noscript
+                  ><img
+                    src="../../wp-content/themes/oa-lp/assets/img/girl-picton.jpg"
+                    class="w-full mr-auto xl:w-10/12"
+                /></noscript>
+              </div>
+              <div class="rounded-lg oa-js-reveal">
+                <div
+                  class="flex flex-col justify-center h-full md:px-7 lg:px-10 xl:px-14"
+                >
+                  <h5 class="mb-6 text-2xl font-semibold">
+                    It’s simple, quick, safe - and free!
+                  </h5>
+                  <p class="mb-6 text-base">
+                    Complete the
+                    <span class="font-semibold text-oa-blue"
+                      >simple two-minute quotation form</span
+                    >
+                    and get:
+                  </p>
+                  <ul class="mb-2">
+                    <li class="mb-4 text-base font-normal text-oa-oxford-blue">
+                      — 3 matched & verified outsourcing service providers
+                    </li>
+                    <li class="mb-4 text-base font-normal text-oa-oxford-blue">
+                      — A personalised price guide report
+                    </li>
+                    <li class="mb-4 text-base font-normal text-oa-oxford-blue">
+                      — Access to reliable Outsource Accelerator support
+                    </li>
+                  </ul>
+                  <p class="text-base">
+                    It is completely free to use, completely confidential, and
+                    free of any commitment.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="grid w-full gap-5 md:grid-cols-2 lg:gap-12 mb-14 lg:mb-12"
+            >
+              <div class="rounded-lg oa-js-reveal">
+                <div
+                  class="flex flex-col justify-center h-full md:px-7 lg:px-10 xl:px-14"
+                >
+                  <h5 class="mb-6 text-2xl font-semibold">
+                    The outsourcing authority
+                  </h5>
+                  <p class="mb-6 text-base">
+                    Outsource Accelerator is the leading outsourcing advisory
+                    for the Philippines. The OA platform serves as the conduit
+                    between Philippine outsourcing suppliers and the businesses
+                    – clients – across the globe.
+                  </p>
+                  <p class="mb-6 text-base">
+                    As a leading aggregator marketplace for offshore staffing
+                    services, Outsource Accelerator also offers a full spectrum
+                    of brokerage, incubation and co-management services.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="flex items-center order-first mb-0 oa-js-reveal md:order-none lg:mb-5"
+              >
+                <img
+                  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                  class="w-full ml-auto"
+                  data-lazy-src="../../wp-content/themes/oa-lp/assets/img/boy-yellow.jpg"
+                /><noscript
+                  ><img
+                    src="../../wp-content/themes/oa-lp/assets/img/boy-yellow.jpg"
+                    class="w-full ml-auto"
+                /></noscript>
+              </div>
+            </div>
+            <div class="grid w-full gap-5 mb-0 md:grid-cols-2 lg:gap-12">
+              <div class="flex items-center mb-0 oa-js-reveal">
+                <img
+                  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                  class="w-full mr-auto xl:w-11/12"
+                  data-lazy-src="../../wp-content/themes/oa-lp/assets/img/girl-light-blue.jpg"
+                /><noscript
+                  ><img
+                    src="../../wp-content/themes/oa-lp/assets/img/girl-light-blue.jpg"
+                    class="w-full mr-auto xl:w-11/12"
+                /></noscript>
+              </div>
+              <div class="rounded-lg oa-js-reveal">
+                <div
+                  class="flex flex-col justify-center h-full md:px-7 lg:px-10 xl:px-14"
+                >
+                  <h5 class="mb-6 text-2xl font-semibold">
+                    Confidential, transparent, and fair
+                  </h5>
+                  <p class="mb-6 text-base">
+                    The process is completely confidential, fair, and
+                    transparent to all parties. It is critical for our mission
+                    that we remain a trusted intermediary by both the clients
+                    and the outsourcing suppliers.
+                  </p>
+                  <p class="text-base">
+                    We do not sell nor share your information with any third
+                    parties - other than the three verified BPO partners with
+                    which you have been matched. We do not charge any
+                    commissions or make any margins if you proceed with
+                    outsourcing.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- sixth section end -->
+
+        <!-- seven section start  -->
+        <section
+          id="oa-section-chart"
+          class="max-w-screen-xl py-16 mx-auto section-chart"
+        >
+          <div
+            class="container px-4 mx-auto border-b-2 border-gray-200 md:px-10"
+          >
+            <div
+              class="block w-full h-full max-w-5xl mx-auto mb-5 text-center oa-js-reveal"
+            >
+              <h2
+                class="w-full mb-5 text-3xl font-semibold xl:text-4xl 2xl:text-5xl"
+              >
+                Ensure incredible value - with Outsource Accelerator
+              </h2>
+              <p class="text-base">
+                Scale your business fast while reducing costs —<br
+                  class="block md:hidden"
+                />the average all-in employment costs
+                <br class="hidden md:block" />in the
+                <br class="block md:hidden" />Philippines are typically 70% less
+                than its <br class="block md:hidden" />Western counterparts
+              </p>
+            </div>
+            <div
+              class="flex-wrap justify-center hidden my-8 md:flex oa-js-reveal oa-buttons-holder"
+            >
+              <span
+                class="oa-js-chart-links cursor-pointer transition-all transform hover:scale-110 font-light py-2.5 pl-9 pr-6 relative outline-none focus:outline-none active"
+                country-code="ph"
+              >
+                <span
+                  class="absolute w-4 h-4 rounded-full bg-oa-light-blue left-3 top-3 animate-ping"
+                ></span>
+                <span
+                  class="absolute w-4 h-4 rounded-full bg-oa-light-blue left-3 top-3"
+                ></span
+                >Philippines
+              </span>
+              <span
+                class="oa-js-chart-links cursor-pointer transition-all transform hover:scale-110 font-light py-2.5 pl-9 pr-6 relative outline-none focus:outline-none"
+                country-code="uk"
+              >
+                <span
+                  class="absolute w-4 h-4 rounded-full bg-oa-anakiwa left-3 top-3"
+                ></span
+                >United Kingdom
+              </span>
+              <span
+                class="oa-js-chart-links cursor-pointer transition-all transform hover:scale-110 font-light py-2.5 pl-9 pr-6 relative outline-none focus:outline-none"
+                country-code="au"
+              >
+                <span
+                  class="absolute w-4 h-4 rounded-full bg-oa-french-pass left-3 top-3"
+                ></span
+                >Australia
+              </span>
+              <span
+                class="oa-js-chart-links cursor-pointer transition-all transform hover:scale-110 font-light py-2.5 pl-9 pr-6 relative outline-none focus:outline-none"
+                country-code="us"
+              >
+                <span
+                  class="absolute w-4 h-4 rounded-full bg-oa-solitude left-3 top-3"
+                ></span
+                >United States
+              </span>
+            </div>
+            <div class="hidden mb-12 md:block oa-js-reveal oa-js-chart-content">
+              <div class="mr-0 lg:-mr-4">
+                <div class="grid grid-cols-1 gap-0 mb-5 lg:grid-cols-4">
+                  <div class="flex items-center mb-2 md:mb-0">
+                    Software Developer
+                  </div>
+                  <div
+                    class="relative flex w-full col-span-3 overflow-visible text-xs transition-all duration-700 lg:text-sm oa-js-bar-holder"
+                  >
+                    <div
+                      class="text-white max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-40 ml-0 rounded-full pl-1.5 p-1.5 bg-oa-light-blue"
+                      pb-width="12.5"
+                      country-code="ph"
+                    >
+                      $7,221
+                    </div>
+                    <div
+                      class="pl-7 text-white max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-30 -ml-7 rounded-full p-1.5 bg-oa-anakiwa"
+                      pb-width="18.75"
+                      country-code="uk"
+                    >
+                      $39,913
+                    </div>
+                    <div
+                      class="pl-7 text-oa-light-blue max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-20 -ml-7 rounded-full p-1.5 bg-oa-french-pass"
+                      pb-width="28"
+                      country-code="au"
+                    >
+                      $62,653
+                    </div>
+                    <div
+                      class="pl-7 text-oa-light-blue max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-10 -ml-7 rounded-full p-1.5 bg-oa-solitude"
+                      pb-width="40.75"
+                      country-code="us"
+                    >
+                      $81,994
+                    </div>
+                  </div>
+                </div>
+                <div class="grid grid-cols-1 gap-0 mb-5 lg:grid-cols-4">
+                  <div class="flex items-center mb-2 md:mb-0">HR Manager</div>
+                  <div
+                    class="relative flex w-full col-span-3 overflow-visible text-xs transition-all duration-700 lg:text-sm oa-js-bar-holder"
+                  >
+                    <div
+                      class="text-white max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-40 ml-0 rounded-full pl-1.5 p-1.5 bg-oa-light-blue"
+                      pb-width="12.95"
+                      country-code="ph"
+                    >
+                      $9,506
+                    </div>
+                    <div
+                      class="pl-7 text-white max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-30 -ml-7 rounded-full p-1.5 bg-oa-anakiwa"
+                      pb-width="20.27"
+                      country-code="uk"
+                    >
+                      $46,669
+                    </div>
+                    <div
+                      class="pl-7 text-oa-light-blue max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-20 -ml-7 rounded-full p-1.5 bg-oa-french-pass"
+                      pb-width="28.17"
+                      country-code="au"
+                    >
+                      $66,518
+                    </div>
+                    <div
+                      class="pl-7 text-oa-light-blue max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-10 -ml-7 rounded-full p-1.5 bg-oa-solitude"
+                      pb-width="37.84"
+                      country-code="us"
+                    >
+                      $78,007
+                    </div>
+                  </div>
+                </div>
+                <div class="grid grid-cols-1 gap-0 mb-5 lg:grid-cols-4">
+                  <div class="flex items-center mb-2 md:mb-0">Team Leader</div>
+                  <div
+                    class="relative flex w-full col-span-3 overflow-visible text-xs transition-all duration-700 lg:text-sm oa-js-bar-holder"
+                  >
+                    <div
+                      class="text-white max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-40 ml-0 rounded-full pl-1.5 p-1.5 bg-oa-light-blue"
+                      pb-width="10.06"
+                      country-code="ph"
+                    >
+                      $7,152
+                    </div>
+                    <div
+                      class="pl-7 text-white max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-30 -ml-7 rounded-full p-1.5 bg-oa-anakiwa"
+                      pb-width="16.62"
+                      country-code="uk"
+                    >
+                      $31,174
+                    </div>
+                    <div
+                      class="pl-7 text-oa-light-blue max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-20 -ml-7 rounded-full p-1.5 bg-oa-french-pass"
+                      pb-width="22.48"
+                      country-code="au"
+                    >
+                      $45,428
+                    </div>
+                    <div
+                      class="pl-7 text-oa-light-blue max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-10 -ml-7 rounded-full p-1.5 bg-oa-solitude"
+                      pb-width="36.84"
+                      country-code="us"
+                    >
+                      $75,823
+                    </div>
+                  </div>
+                </div>
+                <div class="grid grid-cols-1 gap-0 mb-5 lg:grid-cols-4">
+                  <div class="flex items-center mb-2 md:mb-0">Accountant</div>
+                  <div
+                    class="relative flex w-full col-span-3 overflow-visible text-xs transition-all duration-700 lg:text-sm oa-js-bar-holder"
+                  >
+                    <div
+                      class="text-white max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-40 ml-0 rounded-full pl-1.5 p-1.5 bg-oa-light-blue"
+                      pb-width="9.37"
+                      country-code="ph"
+                    >
+                      $5,959
+                    </div>
+                    <div
+                      class="pl-7 text-oa-light-blue max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-30 -ml-7 rounded-full p-1.5 bg-oa-french-pass"
+                      pb-width="24.22"
+                      country-code="au"
+                    >
+                      $58,479
+                    </div>
+                    <div
+                      class="pl-7 text-oa-light-blue max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-20 -ml-7 rounded-full p-1.5 bg-oa-solitude"
+                      pb-width="32.84"
+                      country-code="us"
+                    >
+                      $67,190
+                    </div>
+                    <div
+                      class="pl-7 text-white max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-10 -ml-7 rounded-full p-1.5 bg-oa-anakiwa"
+                      pb-width="28.21"
+                      country-code="uk"
+                    >
+                      $72,923
+                    </div>
+                  </div>
+                </div>
+                <div class="grid grid-cols-1 gap-0 mb-5 lg:grid-cols-4">
+                  <div class="flex items-center mb-2 md:mb-0">Copy Writer</div>
+                  <div
+                    class="relative flex w-full col-span-3 overflow-visible text-xs transition-all duration-700 lg:text-sm oa-js-bar-holder"
+                  >
+                    <div
+                      class="text-white max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-40 ml-0 rounded-full pl-1.5 p-1.5 bg-oa-light-blue"
+                      pb-width="8.82"
+                      country-code="ph"
+                    >
+                      $4,767
+                    </div>
+                    <div
+                      class="pl-7 text-white max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-30 -ml-7 rounded-full p-1.5 bg-oa-anakiwa"
+                      pb-width="23.21"
+                      country-code="uk"
+                    >
+                      $52,088
+                    </div>
+                    <div
+                      class="pl-7 text-oa-light-blue max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-20 -ml-7 rounded-full p-1.5 bg-oa-solitude"
+                      pb-width="25.59"
+                      country-code="us"
+                    >
+                      $56,600
+                    </div>
+                    <div
+                      class="pl-7 text-oa-light-blue max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-10 -ml-7 rounded-full p-1.5 bg-oa-french-pass"
+                      pb-width="28.2"
+                      country-code="au"
+                    >
+                      $62,653
+                    </div>
+                  </div>
+                </div>
+                <div class="grid grid-cols-1 gap-0 mb-5 lg:grid-cols-4">
+                  <div class="flex items-center mb-2 md:mb-0">
+                    Customer Service
+                  </div>
+                  <div
+                    class="relative flex w-full col-span-3 overflow-visible text-xs transition-all duration-700 lg:text-sm oa-js-bar-holder"
+                  >
+                    <div
+                      class="text-white max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-40 ml-0 rounded-full pl-1.5 p-1.5 bg-oa-light-blue"
+                      pb-width="7.72"
+                      country-code="ph"
+                    >
+                      $3,337
+                    </div>
+                    <div
+                      class="pl-7 text-white max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-30 -ml-7 rounded-full p-1.5 bg-oa-anakiwa"
+                      pb-width="14.57"
+                      country-code="uk"
+                    >
+                      $22,137
+                    </div>
+                    <div
+                      class="pl-7 text-oa-light-blue max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-20 -ml-7 rounded-full p-1.5 bg-oa-solitude"
+                      pb-width="12.48"
+                      country-code="us"
+                    >
+                      $29,717
+                    </div>
+                    <div
+                      class="pl-7 text-oa-light-blue max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-10 -ml-7 rounded-full p-1.5 bg-oa-french-pass"
+                      pb-width="20.48"
+                      country-code="au"
+                    >
+                      $35,275
+                    </div>
+                  </div>
+                </div>
+                <div class="grid grid-cols-1 gap-0 mb-5 lg:grid-cols-4">
+                  <div class="flex items-center mb-2 md:mb-0">
+                    Virtual Assistance
+                  </div>
+                  <div
+                    class="relative flex w-full col-span-3 overflow-visible text-xs transition-all duration-700 lg:text-sm oa-js-bar-holder"
+                  >
+                    <div
+                      class="text-white max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-40 ml-0 rounded-full pl-1.5 p-1.5 bg-oa-light-blue"
+                      pb-width="5.72"
+                      country-code="ph"
+                    >
+                      $2,285
+                    </div>
+                    <div
+                      class="pl-7 text-white max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-30 -ml-7 rounded-full p-1.5 bg-oa-anakiwa"
+                      pb-width="18.55"
+                      country-code="uk"
+                    >
+                      $39,066
+                    </div>
+                    <div
+                      class="pl-7 text-oa-light-blue max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-20 -ml-7 rounded-full p-1.5 bg-oa-solitude"
+                      pb-width="21.59"
+                      country-code="us"
+                    >
+                      $42,240
+                    </div>
+                    <div
+                      class="pl-7 text-oa-light-blue max-h-9 whitespace-nowrap oa-js-progress-bar text-center z-10 -ml-7 rounded-full p-1.5 bg-oa-french-pass"
+                      pb-width="18.48"
+                      country-code="au"
+                    >
+                      $31,797
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-wrap justify-center w-full my-8 md:hidden oa-js-reveal oa-buttons-holder"
+            >
+              <div class="relative w-full">
+                <span class="font-bold text-oa-light-black-2 soll"
+                  >Select a role to view salaries</span
+                >
+                <svg
+                  class="absolute right-0 w-3 h-3 m-4 pointer-events-none"
+                  style="top: 46%"
+                  width="14"
+                  height="8"
+                  viewBox="0 0 14 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13 1L7 7L1 1"
+                    stroke="#3E7BDE"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <select
+                  id="oa-chart-select"
+                  class="w-full h-12 px-4 mt-3 border rounded-lg appearance-none oa-form text-oa-black border-oa-light-blue hover:border-oa-light-blue focus:outline-none"
+                >
+                  <option value="0">Software Developer</option>
+                  <option value="1">HR Manager</option>
+                  <option value="2">Team Leader</option>
+                  <option value="3">Accountant</option>
+                  <option value="4">Copy Writer</option>
+                  <option value="5">Customer Service</option>
+                  <option value="6">Virtual Assistance</option>
+                </select>
+              </div>
+            </div>
+            <div class="block mb-12 md:hidden oa-js-reveal oa-js-chart-content">
+              <div class="mr-0 lg:-mr-4">
+                <div class="grid grid-cols-1 gap-0 mb-5 lg:grid-cols-4">
+                  <div class="flex items-center justify-between mb-2 md:mb-0">
+                    <span class="text-oa-light-black-2">Philippines</span>
+                    <span class="oa-chart-ph-prices">
+                      <span class="font-bold text-oa-light-black-2"
+                        >$7,221</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$9,506</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$7,152</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$5,959</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$4,767</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$3,337</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$2,285</span
+                      >
+                    </span>
+                  </div>
+                  <div
+                    class="relative flex w-full col-span-3 overflow-visible text-xs transition-all duration-700 lg:text-sm oa-js-bar-holder"
+                  >
+                    <div
+                      class="z-10 h-3 text-center rounded-full oa-chart-ph-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-light-blue"
+                      pb-width="8"
+                      country-code="ph"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-ph-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-light-blue"
+                      pb-width="9"
+                      country-code="ph"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-ph-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-light-blue"
+                      pb-width="7"
+                      country-code="ph"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-ph-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-light-blue"
+                      pb-width="6.5"
+                      country-code="ph"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-ph-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-light-blue"
+                      pb-width="5"
+                      country-code="ph"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-ph-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-light-blue"
+                      pb-width="4.3"
+                      country-code="ph"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-ph-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-light-blue"
+                      pb-width="3"
+                      country-code="ph"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="mr-0 lg:-mr-4">
+                <div class="grid grid-cols-1 gap-0 mb-5 lg:grid-cols-4">
+                  <div class="flex items-center justify-between mb-2 md:mb-0">
+                    <span class="text-oa-light-black-2">United Kingdom</span>
+                    <span class="oa-chart-uk-prices">
+                      <span class="font-bold text-oa-light-black-2"
+                        >$39,913</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$46,669</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$31,174</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$58,479</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$52,088</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$22,137</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$39,066</span
+                      >
+                    </span>
+                  </div>
+                  <div
+                    class="relative flex w-full col-span-3 overflow-visible text-xs transition-all duration-700 lg:text-sm oa-js-bar-holder"
+                  >
+                    <div
+                      class="z-10 h-3 text-center rounded-full oa-chart-uk-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-anakiwa"
+                      pb-width="50"
+                      country-code="uk"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-uk-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-anakiwa"
+                      pb-width="60"
+                      country-code="uk"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-uk-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-anakiwa"
+                      pb-width="40"
+                      country-code="uk"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-uk-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-anakiwa"
+                      pb-width="65"
+                      country-code="uk"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-uk-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-anakiwa"
+                      pb-width="53"
+                      country-code="uk"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-uk-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-anakiwa"
+                      pb-width="31"
+                      country-code="uk"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-uk-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-anakiwa"
+                      pb-width="48"
+                      country-code="uk"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="mr-0 lg:-mr-4">
+                <div class="grid grid-cols-1 gap-0 mb-5 lg:grid-cols-4">
+                  <div class="flex items-center justify-between mb-2 md:mb-0">
+                    <span class="text-oa-light-black-2">Australia</span>
+                    <span class="oa-chart-au-prices">
+                      <span class="font-bold text-oa-light-black-2"
+                        >$62,653</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$66,518</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$45,428</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$67,190</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$56,600</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$35,275</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$31,797</span
+                      >
+                    </span>
+                  </div>
+                  <div
+                    class="relative flex w-full col-span-3 overflow-visible text-xs transition-all duration-700 lg:text-sm oa-js-bar-holder"
+                  >
+                    <div
+                      class="z-10 h-3 text-center rounded-full pl-7 oa-chart-au-chart whitespace-nowrap oa-js-progress-bar bg-oa-french-pass"
+                      pb-width="68"
+                      country-code="au"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-au-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-french-pass"
+                      pb-width="70"
+                      country-code="au"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-au-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-french-pass"
+                      pb-width="48"
+                      country-code="au"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-au-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-french-pass"
+                      pb-width="40"
+                      country-code="au"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-au-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-french-pass"
+                      pb-width="68"
+                      country-code="au"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-au-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-french-pass"
+                      pb-width="34"
+                      country-code="au"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-au-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-french-pass"
+                      pb-width="30"
+                      country-code="au"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="mr-0 lg:-mr-4">
+                <div class="grid grid-cols-1 gap-0 mb-5 lg:grid-cols-4">
+                  <div class="flex items-center justify-between mb-2 md:mb-0">
+                    <span class="text-oa-light-black-2">United States</span>
+                    <span class="oa-chart-us-prices">
+                      <span class="font-bold text-oa-light-black-2"
+                        >$81,994</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$78,007</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$75,823</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$72,923</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$62,653</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$29,717</span
+                      >
+                      <span class="hidden font-bold text-oa-light-black-2"
+                        >$42,240</span
+                      >
+                    </span>
+                  </div>
+                  <div
+                    class="relative flex w-full col-span-3 overflow-visible text-xs transition-all duration-700 lg:text-sm oa-js-bar-holder"
+                  >
+                    <div
+                      class="z-10 h-3 text-center rounded-full oa-chart-us-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-light-blue-10"
+                      pb-width="95"
+                      country-code="us"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-us-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-light-blue-10"
+                      pb-width="65"
+                      country-code="us"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-us-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-light-blue-10"
+                      pb-width="75"
+                      country-code="us"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-us-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-light-blue-10"
+                      pb-width="55"
+                      country-code="us"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-us-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-light-blue-10"
+                      pb-width="60"
+                      country-code="us"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-us-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-light-blue-10"
+                      pb-width="32"
+                      country-code="us"
+                    ></div>
+                    <div
+                      class="z-10 hidden h-3 text-center rounded-full oa-chart-us-chart pl-7 whitespace-nowrap oa-js-progress-bar bg-oa-light-blue-10"
+                      pb-width="52"
+                      country-code="us"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container px-4 mx-auto my-5 oa-js-reveal md:px-10">
+            <span class="block mx-auto text-sm text-center text-oa-gray"
+              >Outsourcing salary comparison chart. All amounts are in U.S.
+              dollars per annum</span
+            >
+          </div>
+        </section>
+        <!-- seven section end -->
+
+        <!-- eight section start  -->
+        <section class="bg-oa-light-blue-5 section-services">
+          <div
+            class="py-8 sm:pt-16 sm:pb-20 grid grid-cols-1 sm:grid-cols-2 max-w-screen-xl mx-auto px-4 xl:px-16 2xl:px-0"
+          >
+            <div class="col-span-1 sm:col-span-2 mx-auto">
+              <ul
+                class="flex flex-row pb-8 sm:pb-4 justify-center mx-auto sm:mx-0 flex-wrap md:items-center items-center oa-list-holder"
+              >
+                <li
+                  class="font-soll font-light text-oa-black relative pl-10 pt-4 text-sm pr-3 sm:pr-8"
+                >
+                  Top professionals
+                </li>
+                <li
+                  class="font-soll font-light text-oa-black relative pl-10 pt-4 text-sm pr-3 sm:pr-8"
+                >
+                  Highly qualified
+                </li>
+                <li
+                  class="font-soll font-light text-oa-black relative pl-10 pt-4 text-sm pr-3 sm:pr-8"
+                >
+                  Fluent English
+                </li>
+              </ul>
+              <h3
+                class="font-soll text-3xl font-bold xl:text-4xl 2xl:text-5xl text-center"
+              >
+                The easiest way to build an
+                <span class="text-oa-pink">offshore team</span>
+              </h3>
+            </div>
+            <div
+              class="col-span-2 grid grid-cols-1 md:grid-cols-3 gap-x-4 pt-4"
+            >
+              <a
+                href="https://www.outsourceaccelerator.com/business/design-and-graphics/"
+                class="bg-white py-5 px-3 sm:p-5 md:p-7 rounded-lg mt-4 hover:no-underline grid grid-cols-3 gap-x-3 sm:flex flex-col group"
+                data-wpel-link="internal"
+              >
+                <img
+                  class="mx-auto pr-0 pb-0 md:pb-4 flex items-center h-14 md:h-auto"
+                  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                  data-lazy-src="../../wp-content/themes/oa-lp/assets/img/design-graphics.png"
+                /><noscript
+                  ><img
+                    class="mx-auto pr-0 pb-0 md:pb-4 flex items-center h-14 md:h-auto"
+                    src="../../wp-content/themes/oa-lp/assets/img/design-graphics.png"
+                /></noscript>
+                <div
+                  class="flex flex-col my-auto md:my-0 md:pt-0 pt-0 sm:pt-4 col-span-2 justify-self-start"
+                >
+                  <p
+                    class="group-hover:text-oa-pink font-bold text-black font-soll text-left sm:text-center pb-0 md:pb-2"
+                  >
+                    Design and Graphics
+                  </p>
+                </div>
+              </a>
+              <a
+                href="https://www.outsourceaccelerator.com/business/software-development/"
+                class="bg-white py-5 px-3 sm:p-5 md:p-7 rounded-lg mt-4 hover:no-underline grid grid-cols-3 gap-x-3 sm:flex flex-col group"
+                data-wpel-link="internal"
+              >
+                <img
+                  class="mx-auto pr-0 pb-0 md:pb-4 flex items-center h-14 md:h-auto"
+                  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                  data-lazy-src="../../wp-content/themes/oa-lp/assets/img/software-development.png"
+                /><noscript
+                  ><img
+                    class="mx-auto pr-0 pb-0 md:pb-4 flex items-center h-14 md:h-auto"
+                    src="../../wp-content/themes/oa-lp/assets/img/software-development.png"
+                /></noscript>
+                <div
+                  class="flex flex-col my-auto md:my-0 md:pt-0 pt-0 sm:pt-4 col-span-2 justify-self-start"
+                >
+                  <p
+                    class="group-hover:text-oa-pink font-bold text-black font-soll text-left sm:text-center pb-0 md:pb-2"
+                  >
+                    Software Development
+                  </p>
+                </div>
+              </a>
+              <a
+                href="https://www.outsourceaccelerator.com/business/payroll/"
+                class="bg-white py-5 px-3 sm:p-5 md:p-7 rounded-lg mt-4 hover:no-underline grid grid-cols-3 gap-x-3 sm:flex flex-col group"
+                data-wpel-link="internal"
+              >
+                <img
+                  class="mx-auto pr-0 pb-0 md:pb-4 flex items-center h-14 md:h-auto"
+                  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                  data-lazy-src="../../wp-content/themes/oa-lp/assets/img/payroll.png"
+                /><noscript
+                  ><img
+                    class="mx-auto pr-0 pb-0 md:pb-4 flex items-center h-14 md:h-auto"
+                    src="../../wp-content/themes/oa-lp/assets/img/payroll.png"
+                /></noscript>
+                <div
+                  class="flex flex-col my-auto md:my-0 md:pt-0 pt-0 sm:pt-4 col-span-2 justify-self-start"
+                >
+                  <p
+                    class="group-hover:text-oa-pink font-bold text-black font-soll text-left sm:text-center pb-0 md:pb-2"
+                  >
+                    Payroll
+                  </p>
+                </div>
+              </a>
+              <a
+                href="index.html"
+                class="bg-white py-5 px-3 sm:p-5 md:p-7 rounded-lg mt-4 hover:no-underline grid grid-cols-3 gap-x-3 sm:flex flex-col group"
+                data-wpel-link="internal"
+              >
+                <img
+                  class="mx-auto pr-0 pb-0 md:pb-4 flex items-center h-14 md:h-auto"
+                  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                  data-lazy-src="../../wp-content/themes/oa-lp/assets/img/generation-sales.png"
+                /><noscript
+                  ><img
+                    class="mx-auto pr-0 pb-0 md:pb-4 flex items-center h-14 md:h-auto"
+                    src="../../wp-content/themes/oa-lp/assets/img/generation-sales.png"
+                /></noscript>
+                <div
+                  class="flex flex-col my-auto md:my-0 md:pt-0 pt-0 sm:pt-4 col-span-2 justify-self-start"
+                >
+                  <p
+                    class="group-hover:text-oa-pink font-bold text-black font-soll text-left sm:text-center pb-0 md:pb-2"
+                  >
+                    Lead Generation and Sales
+                  </p>
+                </div>
+              </a>
+              <a
+                href="https://www.outsourceaccelerator.com/business/finance-accounting/"
+                class="bg-white py-5 px-3 sm:p-5 md:p-7 rounded-lg mt-4 hover:no-underline grid grid-cols-3 gap-x-3 sm:flex flex-col group"
+                data-wpel-link="internal"
+              >
+                <img
+                  class="mx-auto pr-0 pb-0 md:pb-4 flex items-center h-14 md:h-auto"
+                  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                  data-lazy-src="../../wp-content/themes/oa-lp/assets/img/finance-acc.png"
+                /><noscript
+                  ><img
+                    class="mx-auto pr-0 pb-0 md:pb-4 flex items-center h-14 md:h-auto"
+                    src="../../wp-content/themes/oa-lp/assets/img/finance-acc.png"
+                /></noscript>
+                <div
+                  class="flex flex-col my-auto md:my-0 md:pt-0 pt-0 sm:pt-4 col-span-2 justify-self-start"
+                >
+                  <p
+                    class="group-hover:text-oa-pink font-bold text-black font-soll text-left sm:text-center pb-0 md:pb-2"
+                  >
+                    Finance & Accounting
+                  </p>
+                </div>
+              </a>
+              <a
+                href="https://www.outsourceaccelerator.com/business/virtual-assistant/"
+                class="bg-white py-5 px-3 sm:p-5 md:p-7 rounded-lg mt-4 hover:no-underline grid grid-cols-3 gap-x-3 sm:flex flex-col group"
+                data-wpel-link="internal"
+              >
+                <img
+                  class="mx-auto pr-0 pb-0 md:pb-4 flex items-center h-14 md:h-auto"
+                  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                  data-lazy-src="../../wp-content/themes/oa-lp/assets/img/va.png"
+                /><noscript
+                  ><img
+                    class="mx-auto pr-0 pb-0 md:pb-4 flex items-center h-14 md:h-auto"
+                    src="../../wp-content/themes/oa-lp/assets/img/va.png"
+                /></noscript>
+                <div
+                  class="flex flex-col my-auto md:my-0 md:pt-0 pt-0 sm:pt-4 col-span-2 justify-self-start"
+                >
+                  <p
+                    class="group-hover:text-oa-pink font-bold text-black font-soll text-left sm:text-center pb-0 md:pb-2"
+                  >
+                    Virtual Assistance
+                  </p>
+                </div>
+              </a>
+              <a
+                href="https://www.outsourceaccelerator.com/business/customer-service/"
+                class="bg-white py-5 px-3 sm:p-5 md:p-7 rounded-lg mt-4 hover:no-underline grid grid-cols-3 gap-x-3 sm:flex flex-col group"
+                data-wpel-link="internal"
+              >
+                <img
+                  class="mx-auto pr-0 pb-0 md:pb-4 flex items-center h-14 md:h-auto"
+                  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                  data-lazy-src="../../wp-content/themes/oa-lp/assets/img/cs.png"
+                /><noscript
+                  ><img
+                    class="mx-auto pr-0 pb-0 md:pb-4 flex items-center h-14 md:h-auto"
+                    src="../../wp-content/themes/oa-lp/assets/img/cs.png"
+                /></noscript>
+                <div
+                  class="flex flex-col my-auto md:my-0 md:pt-0 pt-0 sm:pt-4 col-span-2 justify-self-start"
+                >
+                  <p
+                    class="group-hover:text-oa-pink font-bold text-black font-soll text-left sm:text-center pb-0 md:pb-2"
+                  >
+                    Customer Service
+                  </p>
+                </div>
+              </a>
+              <a
+                href="https://www.outsourceaccelerator.com/business/digital-marketing/"
+                class="bg-white py-5 px-3 sm:p-5 md:p-7 rounded-lg mt-4 hover:no-underline grid grid-cols-3 gap-x-3 sm:flex flex-col group"
+                data-wpel-link="internal"
+              >
+                <img
+                  class="mx-auto pr-0 pb-0 md:pb-4 flex items-center h-14 md:h-auto"
+                  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                  data-lazy-src="../../wp-content/themes/oa-lp/assets/img/call-center.png"
+                /><noscript
+                  ><img
+                    class="mx-auto pr-0 pb-0 md:pb-4 flex items-center h-14 md:h-auto"
+                    src="../../wp-content/themes/oa-lp/assets/img/call-center.png"
+                /></noscript>
+                <div
+                  class="flex flex-col my-auto md:my-0 md:pt-0 pt-0 sm:pt-4 col-span-2 justify-self-start"
+                >
+                  <p
+                    class="group-hover:text-oa-pink font-bold text-black font-soll text-left sm:text-center pb-0 md:pb-2"
+                  >
+                    Digital Marketing
+                  </p>
+                </div>
+              </a>
+              <a
+                href="https://www.outsourceaccelerator.com/business/human-resources/"
+                class="bg-white py-5 px-3 sm:p-5 md:p-7 rounded-lg mt-4 hover:no-underline grid grid-cols-3 gap-x-3 sm:flex flex-col group"
+                data-wpel-link="internal"
+              >
+                <img
+                  class="mx-auto pr-0 pb-0 md:pb-4 flex items-center h-14 md:h-auto"
+                  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+                  data-lazy-src="../../wp-content/themes/oa-lp/assets/img/human-resources.png"
+                /><noscript
+                  ><img
+                    class="mx-auto pr-0 pb-0 md:pb-4 flex items-center h-14 md:h-auto"
+                    src="../../wp-content/themes/oa-lp/assets/img/human-resources.png"
+                /></noscript>
+                <div
+                  class="flex flex-col my-auto md:my-0 md:pt-0 pt-0 sm:pt-4 col-span-2 justify-self-start"
+                >
+                  <p
+                    class="group-hover:text-oa-pink font-bold text-black font-soll text-left sm:text-center pb-0 md:pb-2"
+                  >
+                    Human Resources
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+        <!-- eight section end -->
+
+        <!-- nine section start  -->
+        <section
+          optin-trigger="quote"
+          class="pt-16 pb-0 lg:pt-24 section-quote bg-oa-light-blue"
+        >
+          <div class="container px-4 mx-auto oa-js-reveal md:px-10">
+            <h2
+              class="relative z-10 mb-8 text-2xl font-semibold text-center text-white xl:text-3xl 2xl:text-4xl"
+            >
+              Avoid guesswork. Talk to the experts,
+              <span class="relative"
+                ><span
+                  class="absolute top-0 right-0 bg-bottom bg-no-repeat bg-contain -z-10 -left-6 -bottom-2.5 bg-oa-heading-highlight-sm"
+                ></span
+                >free.</span
+              >
+            </h2>
+            <div
+              optin-trigger="quote"
+              class="flex flex-wrap w-full max-w-screen-md p-6 mx-auto bg-white rounded-2xl"
+            >
+              <div
+                class="flex flex-col justify-center w-full my-0 lg:w-4/12 lg:pr-6"
+              >
+                <div class="w-full mb-3 text-center">
+                  <img
+                    src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20132%200'%3E%3C/svg%3E"
+                    class="mx-auto"
+                    width="132"
+                    data-lazy-src="../../wp-content/themes/oa-lp/assets/img/quote.png"
+                  /><noscript
+                    ><img
+                      src="../../wp-content/themes/oa-lp/assets/img/quote.png"
+                      class="mx-auto"
+                      width="132"
+                  /></noscript>
+                </div>
+                <h3 class="mb-3 text-lg text-center text-oa-light-blue">
+                  Get 3 Free Quotes
+                </h3>
+                <ul class="w-48 mx-auto mb-3 oa-list-holder pl-7">
+                  <li class="relative mb-2 text-sm font-light text-gray-500">
+                    Free Independent quote
+                  </li>
+                  <li class="relative mb-2 text-sm font-light text-gray-500">
+                    3,000+ leading suppliers
+                  </li>
+                  <li class="relative mb-2 text-sm font-light text-gray-500">
+                    Unrivalled expertise
+                  </li>
+                </ul>
+                <div class="mb-5 text-center">
+                  <a
+                    href="https://www.outsourceaccelerator.com/business/quote"
+                    target="_blank"
+                    class="text-sm font-light text-oa-light-blue"
+                    data-wpel-link="internal"
+                    >Learn more about quote</a
+                  >
+                </div>
+              </div>
+              <div
+                class="flex flex-col justify-between w-full p-4 rounded-lg lg:w-8/12 shadow-oa-all-side"
+              >
+                <div class="flex flex-wrap">
+                  <div class="relative w-full mb-3 text-center">
+                    <img
+                      src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2050%200'%3E%3C/svg%3E"
+                      class="mx-auto"
+                      width="50"
+                      data-lazy-src="../../wp-content/themes/oa-lp/assets/img/lisa-fortes.png"
+                    /><noscript
+                      ><img
+                        src="../../wp-content/themes/oa-lp/assets/img/lisa-fortes.png"
+                        class="mx-auto"
+                        width="50"
+                    /></noscript>
+                    <span
+                      class="absolute w-2 h-2 ml-4 rounded-full bg-oa-forest-green bottom-2"
+                    ></span>
+                  </div>
+                  <div class="w-full mb-5 text-center">
+                    <p class="text-sm font-semibold">Lisa</p>
+                    <p class="text-xs text-gray-500">OA Business Consultant</p>
+                  </div>
+                </div>
+                <h3 class="text-center text-oa-light-blue">
+                  How many staff to outsource?
+                </h3>
+                <div
+                  class="flex flex-wrap justify-center max-w-sm mx-auto mb-5 oa-buttons-holder"
+                >
+                  <button
+                    class="js-staff h-7 text-xs focus:outline-none hover:bg-oa-light-blue hover:text-white text-oa-light-blue m-1.5 py-0.5 px-2.5 border border-gray-200 hover:border-oa-light-blue transition-colors"
+                    onclick="_quoteStaff(this)"
+                  >
+                    1-2 staff
+                  </button>
+                  <button
+                    class="js-staff h-7 text-xs focus:outline-none hover:bg-oa-light-blue hover:text-white text-oa-light-blue m-1.5 py-0.5 px-2.5 border border-gray-200 hover:border-oa-light-blue transition-colors"
+                    onclick="_quoteStaff(this)"
+                  >
+                    3-10 staff
+                  </button>
+                  <button
+                    class="js-staff h-7 text-xs focus:outline-none hover:bg-oa-light-blue hover:text-white text-oa-light-blue m-1.5 py-0.5 px-2.5 border border-gray-200 hover:border-oa-light-blue transition-colors"
+                    onclick="_quoteStaff(this)"
+                  >
+                    11-20 staff
+                  </button>
+                  <button
+                    class="js-staff h-7 text-xs focus:outline-none hover:bg-oa-light-blue hover:text-white text-oa-light-blue m-1.5 py-0.5 px-2.5 border border-gray-200 hover:border-oa-light-blue transition-colors"
+                    onclick="_quoteStaff(this)"
+                  >
+                    21-50 staff
+                  </button>
+                  <button
+                    class="js-staff h-7 text-xs focus:outline-none hover:bg-oa-light-blue hover:text-white text-oa-light-blue m-1.5 py-0.5 px-2.5 border border-gray-200 hover:border-oa-light-blue transition-colors"
+                    onclick="_quoteStaff(this)"
+                  >
+                    51+ staff
+                  </button>
+                  <button
+                    class="js-staff h-7 text-xs focus:outline-none hover:bg-oa-light-blue hover:text-white text-oa-light-blue m-1.5 py-0.5 px-2.5 border border-gray-200 hover:border-oa-light-blue transition-colors"
+                    onclick="_quoteStaff(this)"
+                  >
+                    Other
+                  </button>
+                </div>
+                <div class="oa-buttons-holder">
+                  <button
+                    class="w-full transition-colors bg-gradient-to-r from-yellow-200 to-yellow-400 border border-yellow-300 rounded-lg hover:bg-oa-blue text-oa-oxford-blue hover:text-black hover:border-opacity-75 font-bold p-3.5 focus:outline-none"
+                  >
+                    START
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- nine section end -->
+      </main>
+      <!-- main section end -->
+
+      <!-- footer section start  -->
+      <footer id="colophon" class="pt-6 pb-0 site-footer bg-oa-light-blue">
+        <div class="container px-4 mx-auto site-info">
+          <div
+            class="w-full max-w-screen-sm pb-5 mx-auto mt-10 border-t border-oa-malibu"
+          >
+            <span
+              class="block pt-6 mb-2 text-sm text-center text-oa-french-pass"
+              >© 2023 Outsource Accelerator</span
+            >
+            <div class="text-center">
+              <a
+                href="https://www.outsourceaccelerator.com/terms-and-conditions-privacy-policy-and-disclaimer/"
+                class="inline-block mb-6 text-sm text-oa-french-pass hover:underline"
+                data-wpel-link="internal"
+              >
+                Terms and Conditions, Privacy Policy and Disclaimer
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer section end -->
+    </div>
+    <!-- js -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/Bootstrap.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/wavesurfer.js"></script>
+    <script src="./js/custom.js"></script>
+
+    <script src="./js/main.js"></script>
+
+    <!-- index js  -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
